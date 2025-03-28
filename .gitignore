@@ -1,0 +1,47 @@
+ HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+*.yml
+*.log
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/htmlReport
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Exclude JDK and JRE directories
+jdk11/
+jre11/
+*.tar.gz
+*.zip
+
+
+sonarqube-7.9.6 (1).zip
+
+jdk11/
+jre11/
+sonarqube-7.9.6 (1).zip
